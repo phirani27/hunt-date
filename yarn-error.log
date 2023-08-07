@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/pritesh.hirani/.volta/tools/image/node/14.18.2/bin/node /Users/pritesh.hirani/.volta/tools/image/yarn/1.22.10/bin/yarn.js add node-notfier
+
+PATH: 
+  /Users/pritesh.hirani/.volta/tools/image/yarn/1.22.10/bin:/Users/pritesh.hirani/.volta/tools/image/node/14.18.2/bin:/Users/pritesh.hirani/.docker/bin:/Users/pritesh.hirani/.volta/bin:/Users/pritesh.hirani/.asdf/shims:/opt/homebrew/opt/asdf/libexec/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/pritesh.hirani/Library/Application Support/JetBrains/Toolbox/scripts:/Users/pritesh.hirani/.asdf/installs/python/3.9.10/bin:/Users/pritesh.hirani/.yarn/bin:/platform-tools:/cmdline-tools/latest/bin:/Users/pritesh.hirani/.volta/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.18.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/node-notfier: Not found
+      at Request.params.callback [as _callback] (/Users/pritesh.hirani/.volta/tools/image/yarn/1.22.10/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/pritesh.hirani/.volta/tools/image/yarn/1.22.10/lib/cli.js:140662:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/pritesh.hirani/.volta/tools/image/yarn/1.22.10/lib/cli.js:141634:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/pritesh.hirani/.volta/tools/image/yarn/1.22.10/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "license-date-availability",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

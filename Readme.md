@@ -1,4 +1,4 @@
-# This is a project to get desktop notification for Swedish traffic license
+# Hunt date
 
 ### Prerequisite
 
